@@ -1,0 +1,201 @@
+/* #backgroundImage {
+    background-image: url('../assets/back.jpeg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+@media (max-width: 767px) and (min-width: 300px) {
+    .custom-carousel {
+        height: 600px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+
+    .iconses {
+        margin-top: 20px;
+    }
+
+
+
+    .captionSubText {
+        font-size: 10px;
+    }
+
+    .btn-color {
+        background-color: #E7C873;
+        margin-top: 50px;
+        width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formed {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .buttonses {
+        padding-bottom: 30px;
+    }
+
+    .working {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .signings {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .signings .align-items-center {
+        margin-bottom: 20px;
+    }
+
+    .homelive {
+        margin-top: 150px;
+    }
+
+    .headDiscover {
+        font-size: 10px;
+    }
+
+    .discoverImage {
+        padding-top: 20px;
+    }
+
+    .customers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fisrtCusto {
+        width: auto;
+    }
+
+    .secondCusto {
+        width: auto;
+        padding-top: 20px;
+
+    }
+
+    .companybrands {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .buttonview {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .cardes {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.caption-center {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 10px;
+}
+
+.captionText {
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.captionSubText {
+    padding-top: 30px;
+}
+
+.btn-color {
+    background-color: #E7C873;
+    margin-top: 50px;
+
+}
+
+.btn-color2 {
+    background-color: #E7C873;
+    margin-top: 50px;
+    color: #1F4B43;
+    ;
+
+}
+
+.inputSections {
+    position: absolute;
+    left: 3%;
+    top: 88%;
+}
+
+@media (max-width: 991px) {
+    .inputSections {
+        position: static;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .inputSections {
+        position: static;
+        margin-top: 20px;
+    }
+}
+
+
+.darkened-image {
+    filter: brightness(0.5)
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
+}
+
+.homelive {
+    background-image: url('../assets/banner.jpeg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.working {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column;
+    gap: 20px; */
+}
+
+/* .signings {
+    display: flex;
+    flex-direction: column;
+} */
+
+.companybrands {
+    display: flex;
+    justify-content: space-between;
+}
